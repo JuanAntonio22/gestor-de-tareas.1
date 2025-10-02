@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestor de tareas JS y BACKEND</title>
+    <style>
+        body{
+            #lista-tareas{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #lista-tareas li{
+                display: flex;
+                justify-content: space-between;
+                width: 300px;
+                margin: 5px 0;
+            }
+            .btn-eliminar{
+                background-color: red;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+            input[type="text"]{
+                width: 200px;
+                padding: 5px;
+            }
+            button{
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi gestor de tareas</h1>
+
+    <div id="formulario-tareas">
+        <input type="text" id="entrada-tarea" placeholder="Nueva tarea" autocomplete="off">
+        <button id="btn-agregar">Agregar</button>
+    </div>
+    <h2>Tarea Pendiente</h2>
+    <ul id="lista_tareas">
+
+    </ul>
+   
+    
+</body>
+</html>
